@@ -2,17 +2,19 @@
   "name": "json-server-keep",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "json-server": "^0.16.2",
     "nodemon": "^2.0.6"
   },
-  "dependencies": {}
+  "dependencies": {
+    "json-server": "^0.16.2"
+  }
 }
